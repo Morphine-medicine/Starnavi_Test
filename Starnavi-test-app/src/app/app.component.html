@@ -1,0 +1,9 @@
+<div class="app-container">
+<div>
+  <app-mode-picker [availableModes]="apiService.modes$ | async" (onModeSelected)="onModeSelected($event)"></app-mode-picker>
+  <app-squares-container [squares]="squaresService.squares$ | async"></app-squares-container>
+</div>
+<app-hover-squares-list [squares]="squaresService.squares$ | async">
+
+</app-hover-squares-list>
+</div>

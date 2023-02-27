@@ -1,0 +1,6 @@
+<div class="info-container">
+    <h1>Hover squares</h1>
+    <span *ngFor="let squarePosition of (squares | hoveredSquares)">
+    row: {{squarePosition.row}} col: {{squarePosition.column}}
+    </span>
+</div>

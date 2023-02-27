@@ -1,0 +1,11 @@
+.modeSelector{
+    padding: 5px;
+    border: 1px solid black;
+    min-width: 200px;
+}
+.mode-picker-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}

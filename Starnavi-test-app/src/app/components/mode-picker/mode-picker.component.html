@@ -1,0 +1,14 @@
+<div class="mode-picker-container">
+    <mat-select class="modeSelector" [(value)]="selectedMode" placeholder="Pick mode">
+        <mat-option *ngFor="let mode of availableModes" [value]="mode">
+            {{mode.name}}
+        </mat-option>
+    </mat-select>
+
+    <button mat-raised-button
+            color="primary"
+            (click)="onStart()"
+            [disabled]="selectedMode == null">
+      START
+    </button>
+</div>

@@ -1,0 +1,13 @@
+.info-container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    span{
+        margin-bottom: 10px;
+        height: 20px;
+        background-color: khaki;
+        border-radius: 10px;
+        padding: 3px;
+    }
+}

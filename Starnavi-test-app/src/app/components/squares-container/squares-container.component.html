@@ -1,0 +1,8 @@
+<div class="squares-container">
+    <div *ngFor="let row of squares" class="row">
+        <div *ngFor="let square of row"
+        class="square"
+        [appHover]="square">
+        </div>
+    </div>
+</div>
